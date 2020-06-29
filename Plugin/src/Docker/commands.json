@@ -1,0 +1,22 @@
+[
+    {
+        "sign": "docker:attach",
+        "aliases":["d"],
+        "description": "使用1c1g的docker做你想做的事~",
+        "help": "/docker:attach 命令",
+        "usages": [
+            "/docker:attach curl www.baidu.com"
+        ],
+        "arguments": [
+            {
+                "name": "shell",
+                "require": true,
+                "array": true,
+                "describle": "你要执行的命令",
+                "default": null
+            }
+        ],
+        "options": [
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "sign": "game:2048",
+        "aliases":["2"],
+        "description": "2048游戏~使用wasd控制",
+        "help": "第一次输入自动开始新的游戏",
+        "usages": [
+            "/2048 w：向上移动"
+        ],
+        "arguments": [
+            {
+                "name": "where",
+                "require": true,
+                "array": false,
+                "describle": "像哪个方向移动",
+                "default": null
+            }
+        ],
+        "options": [
+        ]
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "sign": "math:random",
+        "aliases":["r"],
+        "description": "随机数~取随机数",
+        "help": "第一次输入自动开始新的游戏",
+        "usages": [
+            "/random 1 6：向上移动",
+            "/random 1 6 5：取5个1-6随机数",
+            "/random 1 6 5 -seed 123：用123作为种子取5个1-6随机数"
+        ],
+        "arguments": [
+            {
+                "name": "start",
+                "require": false,
+                "array": false,
+                "describle": "起始，类型为整数，默认1",
+                "default": 1
+            },
+            {
+                "name": "end",
+                "require": false,
+                "array": false,
+                "describle": "结束，类型为整数，默认6",
+                "default": 6
+            },
+            {
+                "name": "times",
+                "require": false,
+                "array": false,
+                "describle": "次数，类型为整数，默认1",
+                "default": 1
+            }
+        ],
+        "options": [
+            {
+                "name":"seed",
+                "shortcuts":[
+                    "s"
+                ],
+                "describle":"种子",
+                "default":null,
+                "require":false,
+                "array":false,
+                "none":false
+            }
+        ]
+    }
+]

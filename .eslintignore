@@ -1,0 +1,13 @@
+/app
+/bootstrap
+/config
+/database
+/Event
+/node_modules
+/public
+/resources
+/routes
+/storage
+/tests
+/webpack.mix.js
+/www/mdui

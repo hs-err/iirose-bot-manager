@@ -1,0 +1,18 @@
+=========使用说明=========
+安装上就可以了~
+docker为每人一个用户，默认在主目录
+支持所有指令，如需使用sudo请联系logos或苏苏
+docker内存限制：1G
+docker cpu限制：1 core
+docker 系统：ubuntu
+docker 环境：php7.2 nodejs npm
+docker 时限：5秒
+=========使用示例=========
+/docker ping www.baidu.com
+解释：在docker内执行ping www.baidu.com
+PING www.a.shifen.com (180.101.49.11) 56(84) bytes of data.
+64 bytes from 180.101.49.11 (180.101.49.11): icmp_seq=1 ttl=48 time=15.6 ms
+64 bytes from 180.101.49.11 (180.101.49.11): icmp_seq=2 ttl=48 time=15.7 ms
+64 bytes from 180.101.49.11 (180.101.49.11): icmp_seq=3 ttl=48 time=15.7 ms
+64 bytes from 180.101.49.11 (180.101.49.11): icmp_seq=4 ttl=48 time=15.7 ms
+64 bytes from 180.101.49.11 (180.101.49.11): icmp_seq=5 ttl=48 time=15.7 ms

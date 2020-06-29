@@ -1,0 +1,36 @@
+[
+    {
+        "sign": "room:count",
+        "aliases":["rc"],
+        "description": "看看你说了多少话",
+        "help": "/room:count 自己或at一个人",
+        "usages": [
+            "/room:count",
+            "/room:count [*logos*]"
+        ],
+        "arguments": [
+            {
+                "name": "who",
+                "require": false,
+                "array": false,
+                "describle": "要查看谁的，默认自己",
+                "default": false
+            }
+        ],
+        "options": [
+        ]
+    },
+    {
+        "sign": "room:room",
+        "aliases":["rr"],
+        "description": "看看房间来了多少人",
+        "help": "/room:room 查看当前房间",
+        "usages": [
+            "/room:room"
+        ],
+        "arguments": [
+        ],
+        "options": [
+        ]
+    }
+]
